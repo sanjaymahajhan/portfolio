@@ -1,0 +1,42 @@
+.nav-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #f9faff;
+}
+@media (min-width: 768px) {
+  .nav-header {
+    justify-content: space-between;
+  }
+}
+.name {
+  color: black;
+  font-family: roboto;
+  font-size: 20px;
+  margin-left: 10px;
+  font-weight: normal;
+  padding: 9px;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: flex-end;
+  flex: 1;
+  list-style-type: none;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-menu-item {
+  font-family: "Roboto";
+  margin: 10px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #475569;
+}
